@@ -208,3 +208,34 @@
       background-color: #0080006d;
       transform: rotate(360deg);
 }
+/* frist-section */
+.programmer{
+      display: flex;
+      width: 1000px;
+      justify-content: space-between;
+      margin:  auto;
+      padding: 150px 0;
+}
+
+.programmer .single-div{
+      width: 300px;
+      text-align: center;
+      padding: 20px 25px;
+      transition: 0.5s;
+     
+
+}
+
+.programmer .single-div:hover{
+      box-shadow:10px 10px 10px 5px gray;
+      border-radius: 5px;
+}
+
+.programmer .single-div h4{
+      font-size: 22px;
+      margin: 10px 0;
+}
+
+.programmer .single-div i{
+      font-size: 35px;
+}
