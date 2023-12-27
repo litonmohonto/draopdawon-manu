@@ -3,12 +3,20 @@
       padding: 0;
       box-sizing: border-box;
 }
+
+.container{
+      background-image: url(img/images_cd6751.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    
+}
 .navigation{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #DC3545;
-   
+    
 
 
 }
@@ -126,3 +134,77 @@
       transform: scaley(1);
 }
 
+
+/* header code stat */
+.haro-area{
+      text-align: center;
+      padding: 180px;
+
+}
+.haro-area  h1{
+      background-color: #ffc10796;
+      width: 600px;
+      margin: 20px auto;
+      font-size: 50px;
+      padding: 25px;
+      border-radius: 25px;
+     
+} 
+.haro-area  button{
+      font-size: 22px;
+      padding: 15px 40px;
+      text-transform: uppercase;
+      border-radius: 20px 5px 20px 5px;
+      background-color: #b58907;
+      color: white;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: 0.5s;
+      font-weight: bold;
+      border: solid 2px green;
+      margin: 20px;
+}
+
+.haro-area  button:hover{
+
+      background-color: #b58a0773;
+      box-shadow: 0 0 0 white;
+      color: black;
+      
+}
+
+.haro-area  h5{
+      font-size: 18px;
+      
+}
+.haro-area  h4{
+      font-size: 25px;
+}
+
+.icon{
+      margin-top: 20px;
+}
+.icon a{
+      color: white;
+      margin: 5px;
+   
+      
+}
+
+.icon a i{
+      font-size: 25px;
+      background-color: green;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 50%;
+      text-align: center;
+      border: solid 2px white;
+      line-height: 1.0;
+      transition: 0.5s;
+}
+
+.icon a i:hover{
+      background-color: #0080006d;
+      transform: rotate(360deg);
+}
