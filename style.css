@@ -5,7 +5,7 @@
 }
 
 .container{
-      background-image: url(img/images_cd6751.jpeg);
+      background-image: linear-gradient(#0000006c, rgba(0, 0, 0, 0.356)) ,url(img/images_cd6751.jpeg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -238,4 +238,78 @@
 
 .programmer .single-div i{
       font-size: 35px;
+}
+/* secon section */
+
+.second-container{
+      width: 1000px;
+      margin: auto;
+      padding: 50px 0;
+}
+.SmartArea{
+      padding: 50px 0;
+      position: relative;
+      text-align: center;
+}
+
+.SmartArea h2{
+      font-size: 45px;
+}
+
+
+.SmartArea h2::before {
+      position: absolute;
+      content: "";
+      top: 110px;
+      left: 422px;
+      border-bottom: solid 2px  #830707;
+      width: 146px;
+      height: 2px;
+}       
+
+.smart-parent{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+}
+.smart-img{
+      width: 400px;
+   
+  
+}
+.smart-img img{
+      width: 400px;
+}
+
+
+.smart-chial{
+      width: 500px;
+   
+}
+
+.smart-chial h3{
+      margin: 20px 0;
+}
+
+.smart-chial h4{
+      color: #830707;
+}
+
+.chack-box a{
+      text-decoration: none;
+      background-color: #7d0909;
+      color: white;
+      font-size: 20px;
+      padding: 10px 30px;
+      margin: 20px 0;
+      display: inline-block;
+      border-radius: 10px;
+      transition: 0.5s;
+      
+
+}
+
+.chack-box a:hover{
+      background-color: #7d0909ac;
 }
