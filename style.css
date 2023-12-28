@@ -313,3 +313,44 @@
 .chack-box a:hover{
       background-color: #7d0909ac;
 }
+
+/* third section */
+.third-section{
+      background-color: #FAFAFA;
+}
+.Servisces-container{
+      width: 1000px;
+      margin: auto;
+      padding-top: 50px ;
+}
+
+.servisces{
+      text-align: center;
+
+}
+.servisces h2{
+      font-size: 40px;
+}
+
+.servisces-parent{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      text-align: center;
+      grid-gap: 15px;
+      padding:40px 0  60px 0; 
+}
+
+.Servisces-chial{
+      padding: 20px;
+      background-color: #ADD8E6;
+      border-radius: 12px;
+}
+.Servisces-chial i{
+      font-size: 40px;
+      color: #7d0909;
+}
+
+.Servisces-chial h4{
+      margin: 10px 0;
+      font-size: 22px;
+}
