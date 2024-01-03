@@ -598,6 +598,85 @@ padding: 15px;
       color: rgba(128, 128, 128, 0.783);
       margin: 10px 0;
 }
+/* seven section */
+.Contact-contaner{
+      width: 1000px;
+      margin: auto;
+}
+.form-parent{
+      background-color: #eaecf0;
+      display: flex;
+}
+.form-chail{
+      width: 600px;
+}
+.full-name{
+      display: flex;
+}
 
+.full-name input{
+      width: 250px;
+      height: 40px;
+      margin: 0 20px;
+      border: none;
+      padding: 0 10px;
+      font-size: 16px;
+}
+.full-name h4{
+      margin:40px 20px 10px 20px;
+      
+}
+.input-sub{
+      width: 540px;
+      height: 40px;
+      margin: 0 20px;
+      border: none;
+      padding: 0 10px;
+      font-size: 16px;
+}
+.subject{
+      margin:20px 20px 10px 20px;
+}
+.Masseges{
+      margin:20px 20px 10px 20px;
+}
+.text{
+      width: 540px;
+      height: 100px;
+      margin: 0 20px;
+      border: none;
+      padding: 0 10px;
+      resize: none;
+      font-size: 16px;
+}
 
+.button{
+      margin: 15px 20px;
+      padding: 10px 20px ;
+      font-size: 18px;
+      background-color: #0000ff;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
 
+}
+
+.address{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      padding: 20px 0;
+}
+
+.address i{
+      background-color: #200f81;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+}
+.address span{
+      font-size: 18px;
+      font-weight: bold;
+}
