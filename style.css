@@ -602,6 +602,7 @@ padding: 15px;
 .Contact-contaner{
       width: 1000px;
       margin: auto;
+      padding: 20px 0 50px 0;
 }
 .form-parent{
       background-color: #eaecf0;
@@ -667,6 +668,7 @@ padding: 15px;
       justify-content: space-between;
       text-align: center;
       padding: 20px 0;
+      margin: 15px 0;
 }
 
 .address i{
@@ -679,4 +681,61 @@ padding: 15px;
 .address span{
       font-size: 18px;
       font-weight: bold;
+}
+
+/* footer cade stat */
+
+footer{
+      background-color: #023364;
+      color: gray;
+}
+
+.footer-container{
+      width: 1000px;
+      margin: auto;
+}
+.footer-parent{
+      display: flex;
+      justify-content: space-between;
+    
+    
+}
+.footer-chail{
+      width: 220px;
+}
+.footer-chail h3{
+      color: white;
+      margin: 50px 0 20px 0;
+}
+
+.footer-chail p{
+      margin: 15px 0;
+}
+
+.footer-chail p i{
+      color: white;
+}
+
+.footter-link ul{
+      display: flex;
+      justify-content:center ;
+      margin: 10px 0;
+}
+.footter-link ul li{
+      list-style: none;
+      margin: 20px ;
+}
+.footter-link ul a{
+      text-decoration: none;
+      color: gray;
+      font-size: 22px;
+      font-weight: bold;
+}
+
+.footter-link  p{
+      text-align: center;
+      padding-bottom: 20px;
+}
+hr{
+      margin: 10px 0;
 }
